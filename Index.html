@@ -2,27 +2,32 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fullbody Workout Generator</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-   <div class="container">
+  <body class="container">
+   <!--<div class="container">-->
      <h1>Workout Generator</h1>
      <div class="container-btn">
-       <button type="button" id="Generate">Full Body</button>
-       <button type="button" id="generate-csb">Petto/Spalle/Bicipiti</button>
-       <button type="button" id="generate-tdg">Tricipiti/Dorsali/Gambe</button>
-       <button type="button" id="generate-sdc">Spalle/Dorsali/Petto</button>
-       <button type="button" id="generate-lbt">Gambe/Bicipiti/Tricipiti</button>
+       <button type="button" id="Generate"><a href="#ripetizioni">Full Body</a></button>
+       <button type="button" id="generate-csb"><a href="#ripetizioni">Petto/Spalle/Bicipiti</a></button>
+       <button type="button" id="generate-tdg"><a href="#ripetizioni">Tricipiti/Dorsali/Gambe</a></button>
+       <button type="button" id="generate-sdc"><a href="#ripetizioni">Spalle/Dorsali/Petto</a></button>
+       <button type="button" id="generate-lbt"><a href="#ripetizioni">Gambe/Bicipiti/Tricipiti</a></button>
      </div>
+    <div class="reps" id="ripetizioni">
+      <input id="gen-reps"type="button" value="Reps: ">
+      <button type="button" id="central-button"></button>
+      <input id="gen-timer"type="button" value="Timer: ">
+    </div>
 
-     <div id="element"></div>
      <div class="container-list">
-
        <ul id="list"></ul>
+
      </div>
 
-   </div>
+   <!--</div>-->
 
 
     <script src="Index.js"></script>
