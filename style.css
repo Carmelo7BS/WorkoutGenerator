@@ -8,7 +8,7 @@
 .container{
   width:100vw;
   /*max-width: 750px;*/
-  margin: 30px auto;
+  margin: 20px auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -74,14 +74,14 @@ a{
   justify-content: center;
   flex-wrap: wrap;
   padding: 4px;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 
 
 li{
 list-style: none;
-padding: 10px;
+padding: 3px 10px;
 /*color: rgba(248,248,255,0.9);*/
 text-shadow: 2px 2px 5px white,
             -2px -2px 5px white,
@@ -99,10 +99,11 @@ font-size: 45px;
   font-style: italic;
   font-weight: bolder;
   color:white;
-  padding:10px;
+  padding:8px;
   font-size: 45px;
   background-color: rgba(0,0,0,0.1);
   text-shadow: none;
+  margin-top: -5px;
 }
 
 input{
@@ -131,4 +132,68 @@ input:hover{
   font-weight: bold;
   text-decoration: underline;
   font-size: 45px;
+}
+
+@media only screen and (max-width:600px)  {
+
+  .container{
+    font-size: 20px;
+    margin: 15px auto;
+    padding: 9px;
+    border-radius: 4px;
+    background-size: cover;
+
+  }
+  button{
+    margin:10px;
+    font-size: 18px;
+    padding:9px 11px;
+    border: 1.5px solid rgba(248,248,255,0.9);
+    border-radius: 4px;
+    color: rgba(248,248,255,0.9);
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    outline: 1.5px solid rgba(248,248,255,1);
+  }
+  input{
+    font-size: 14px;
+    padding: 5px;
+    border: 1.5px solid orangered;
+    border-radius: 2.5px;
+    font-weight: bold;
+    outline: 1.5px solid orangered;
+    letter-spacing: 0.7px;
+    margin:auto;
+  }
+  input:hover{
+    outline-offset: -5px;
+  }
+  button:hover{
+    outline-offset: -7.5px;
+    outline-width: -5px;
+  }
+  li{
+  list-style: none;
+  padding: 5px;
+  text-shadow: 1px 1px 2.5px white,
+              -1px -1px 2.5px white,
+               1px 1px 2.5px white,
+              -1px -1px 2.5px white;
+  color: black;
+  font-weight: bolder;
+  /*background-color: rgba(255,255,255,0.35);*/
+  border-radius: 2.5px;
+  font-size: 27.5px;
+  }
+
+  .liFissi{
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bolder;
+    color:white;
+    padding:5px;
+    font-size: 27.5px;
+    background-color: rgba(0,0,0,0.1);
+    text-shadow: none;
+  }
 }
