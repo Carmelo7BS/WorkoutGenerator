@@ -19,7 +19,7 @@
   text-align: center;
   font-size: 40px;
   /*background: rgba(47,79,79,0.4);*/
-  background-image: url('dumbbells.jpg');
+  background: url('dumbbells.jpg');
   background-size: cover;
 }
 
@@ -141,6 +141,7 @@ input:hover{
     margin: 15px auto;
     padding: 9px;
     border-radius: 4px;
+    background: url('dumbbells.jpg') no-repeat center fixed;
     background-size: cover;
 
   }
