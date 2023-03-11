@@ -11,16 +11,16 @@ const genTimer = document.getElementById('gen-timer')
 //Elements variables
 const ulEl = document.getElementById('list')
 //Exercise variable
-const shoulder = ['Military-press', 'Alzate laterali', 'Alzate in alto', 'Alzate Frontali', 'Tirate al mento']
+const shoulder = ['Military-press', 'Alzate laterali', 'Alzate in alto', 'Alzate Frontali', 'Tirate al mento', '6 ways', 'Affondi indietro + spinte in alto', 'Alzate laterali da terra', 'Alzate frontali a 90', 'Alzate frontali in quadrupedia', 'Alzata laterale in quadrupedia']
 const chest = ['Push Ups', 'Croci a terra', 'Croci ai cavi', 'Spinte da terra', 'Pull over petto']
-const bicepts = ['Curl Hummer alternato', 'Curl manubri', 'Curl presa inversa', 'Hummer ai cavi']
+const bicepts = ['Curl Hummer alternato', 'Curl manubri', 'Curl presa inversa', 'Hummer ai cavi', 'Bicipiti in affondo fisso']
 const tricepts = ['Estensione tricipite manubrio', 'French press', 'Tricipite pull over', 'Push down ai cavi', 'Kick-back']
-const dorsali = ['Volare prona', 'Rematore', 'Rematore presa inversa', 'Pulley basso', 'Scrollate spalle', 'Pull over dorsali']
-const gambe = ['Squat', 'Squat bulgari', 'Calf', 'Sumo squat', 'Stacchi rumeni', 'Gluteus bridge', 'Affondi']
+const dorsali = ['Volare prona', 'Rematore', 'Rematore presa inversa', 'Pulley basso', 'Scrollate spalle', 'Pull over dorsali', 'Rematore + volare prona']
+const gambe = ['Squat', 'Squat bulgari', 'Calf', 'Sumo squat', 'Stacchi rumeni', 'Gluteus bridge', 'Affondi', 'Good morning', 'Squat su sedia', 'Stacco sumo', 'Squato piedi pari', 'Affondi laterali Goku']
 const addominali =  ['Crunch', 'Leg Raise', 'Bicicletta', 'L-toe touch', 'Isometria barchetta', 'Russian twist', 'Crunch incrociato', 'Crunch con gambe sollevate']
-const fullbody = ['Plank', 'Plank basso', 'Plank inverso', 'Plank tocco spalla', 'Plank pugno']
+const fullbody = ['Plank', 'Plank basso', 'Plank inverso', 'Plank tocco spalla', 'Plank pugno', 'Plank gambe aperte + rematore alt', 'Plank gambe aperte + tocco piede', 'Stacco + tirate + spinte in alto', 'Plank + spinte indietro', 'Camminata Plank + piegamenti', 'Plank basso + spost. peso']
 //Reps variables
-const reps = ['Reps: 3 x 10', 'Reps: 4 x 8', 'Reps: 3 x 12']
+const reps = ['Reps: 3 x 10', 'Reps: 4 x 8', 'Reps: 3 x 12', 'Reps: 4 x 6']
 
 let numbExercise = 1
 
