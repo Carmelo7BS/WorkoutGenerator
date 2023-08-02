@@ -34,16 +34,18 @@ genReps.addEventListener('click', function(){
 })
 
 //GenerateTimer
+let time = 40
 let start = genTimer.addEventListener('click', function start(){
-  let time = 40
-  let countdown = setInterval(function(){
-    if (time <= 0){
-      clearInterval(countdown)
-      genTimer.value = 'Timer'
-    }
-    genTimer.value = time
-    time--
-  }, 1000)
+  if(time === 40) {
+    let countdown = setInterval(function(){
+      genTimer.value = time
+      time--
+      if (time < 0){
+        clearInterval(countdown)
+        genTimer.value = 'Timer'
+      }
+    }, 1000)
+  }
 })
 
 
